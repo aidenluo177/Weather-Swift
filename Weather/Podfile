@@ -1,0 +1,15 @@
+xcodeproj 'Weather.xcodeproj'
+use_frameworks!
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.0'
+
+target 'Weather' do
+
+pod 'RealmSwift'
+
+end
+
+target 'WeatherTests' do
+
+end
+
